@@ -1,6 +1,9 @@
 .header{
-   background: linear-gradient(rgba(108, 80, 49, 0.2),rgba(108, 80, 49, 0.2)), url("./yoga-bg-1.jpg");
+   background: linear-gradient(rgba(108, 80, 49, 0.5),rgba(108, 80, 49, 0.5)), url("./yoga-bg-1.jpg");
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
+   min-height: 55rem;
+   border-bottom-left-radius: 10rem;
+   border-bottom-right-radius: 10rem;
 }
