@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Inter&family=Roboto+Slab&family=Roboto:ital@1&display=swap');
 
+//--------------
+
+
+
 // ----------   reset styles --------------------------------
 
 html, body, div, span, applet, object, iframe,
@@ -46,16 +50,47 @@ table {
 	border-spacing: 0;
 }
 
+a, a:visited{
+   text-decoration: none;
+}
+
+//--------------------------------
+
+:root {
+   --title-color: #6C3428;
+   --primary-color1: #9A3B3B;
+   --primary-color2: #8B4513; 
+   --secondary-color: #A0522D; 
+   --background-color1: #C08261;
+   --background-color2: #E2C799;
+   --background-color3: #F2ECBE;
+   --background-color4: #F5F5DC; 
+   --accent-color: #FF9B50; 
+   --hover-color: #FFBB5C; 
+   --gold-color: #D4AF37; 
+   --text-color: #000000;
+   // --link-color: #800080: 
+   --red-color: #C63D2F;
+   --light-green-color: #7A9D54; 
+   --dark-green-color: #1A5D1A;
+   
+   --padding: 1rem;
+   --margin: 2rem;
+   --box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.5);
+   --line-height: 1.5;
+}
 
 // --------------------------------
 html{
    box-sizing: border-box;
+   font-size: 62.5%; // = 10px
 }
 *,*:after, *:before{
    box-sizing: inherit;
 }
 body{
    line-height: 1.6;
+   font-size: 1.6rem;
    font-family: "Roboto slab";
 }
 
@@ -79,12 +114,12 @@ body{
 }
 @media (min-width:  992px){
    .container{
-      width: 960;
+      width: 960px;
    }
 }
 @media (min-width: 1200px){
    .container{
-      width: 1140;
+      width: 1140px;
    }
 }
 @media (min-width: 1400px){
