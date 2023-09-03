@@ -83,7 +83,15 @@
          }
       }
       &.nav__hamburger-btn--open {
-
+         .nav__hamburger-btn-line{
+            background-color: transparent;
+            &::after{
+               transform: translateY(-8px) rotate(45deg);
+            }
+            &::before{
+               transform: translateY(8px) rotate(-45deg);
+            }
+         }
       }
    }
 }

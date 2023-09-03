@@ -53,7 +53,7 @@ const Navbar = () => {
          <a href="#" className="header__btn-link">Sign up</a>
          <a href="#" className="header__btn-link header__btn-link--border">Sign in</a>
       </div>
-      <div className="nav__hamburger-btn" onClick={hamburgerBtnHandler}>
+      <div className={`nav__hamburger-btn ${hamburgerOpen ? " nav__hamburger-btn--open" : ""}`} onClick={hamburgerBtnHandler}>
          <span className="nav__hamburger-btn-line"></span>
       </div>
     </nav>
