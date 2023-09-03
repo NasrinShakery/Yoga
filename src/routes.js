@@ -12,7 +12,7 @@ const routes = [
    // { path: "/Products", element: <Products /> },
    // { path: "/ProductDetails/:ProductID", element: <ProductDetails /> },
    // { path: "/admin-panel", element: <AdminPanel /> },
-   { path: "*", element: <NotFound404 /> },
+   { path: "*", element: <NotFound404 /> }
 ];
 
 export default routes;
