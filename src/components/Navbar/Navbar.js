@@ -10,6 +10,7 @@ const Navbar = () => {
    }
   return (
     <nav className="nav">
+      <div className="logo-menu-Wrapper">
       <a href="#" className="app-logo">
          <img src="./images/yoga-logo.svg" alt="yoga" className='app-logo__img' />
       </a>
@@ -27,6 +28,7 @@ const Navbar = () => {
             <a href="#" className="menu__link">About Us</a>
          </li>
       </ul>
+      </div>
 
       <div className={`nav-menu ${hamburgerOpen ? "" : " nav-menu--close"}`}>
          <ul className="mobile-menu">
