@@ -6,7 +6,7 @@ const Navbar = () => {
    const [hamburgerOpen, setHamburgerOpen] = useState(false) ;
    const hamburgerBtnHandler = () =>{
       setHamburgerOpen(!hamburgerOpen);
-      console.log("clik......")
+      // console.log("clik......")
    }
   return (
     <nav className="nav">
