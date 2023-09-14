@@ -16,7 +16,7 @@ const Navbar = () => {
       </a>
       <ul className="menu">
          <li className="menu__item">
-            <a href="#" className="menu__link">Home</a>
+            <a href="#" className="menu__link menu__link--active">Home</a>
          </li>
          <li className="menu__item">
             <a href="#" className="menu__link">Events</a>
@@ -51,9 +51,9 @@ const Navbar = () => {
          </div>
       </div>
 
-      <div className="header__btn-links">
-         <a href="#" className="header__btn-link">Sign up</a>
-         <a href="#" className="header__btn-link header__btn-link--border">Sign in</a>
+      <div className="login-btn-links">
+         <a href="#" className="login-btn-link">Sign up</a>
+         <a href="#" className="login-btn-link login-btn-link--border">Sign in</a>
       </div>
       <div className={`nav__hamburger-btn ${hamburgerOpen ? " nav__hamburger-btn--open" : ""}`} onClick={hamburgerBtnHandler}>
          <span className="nav__hamburger-btn-line"></span>

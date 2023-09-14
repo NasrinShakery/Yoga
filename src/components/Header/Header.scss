@@ -1,10 +1,82 @@
 .header{
-   background: linear-gradient(rgba(108, 80, 49, 0.5),rgba(108, 80, 49, 0.5)), url("./yoga-bg-1.jpg");
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   // aspect-ratio: 5/3;
-   min-height: 55rem;
-   border-bottom-left-radius: 10rem;
-   border-bottom-right-radius: 10rem;
+
+   .header__content{
+      // background: linear-gradient(rgba(108, 80, 49, 0.5),rgba(108, 80, 49, 0.5)), url("./yoga-bg-1.jpg");
+      // background: linear-gradient(rgba(108, 80, 49, 0.5),rgba(108, 80, 49, 0.5)), url("./yoga-bg-1.jpg");
+      background: linear-gradient(rgba(108, 80, 49, 0.5),rgba(108, 80, 49, 0.5)), url("./3d-sunset-landscape-with-female-yoga-pose-stepping-stones-ocean.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 70vh;
+      background-position: bottom;
+      border-bottom-left-radius: 10rem;
+      border-bottom-right-radius: 10rem;
+      // display: grid;
+      grid-template-columns: repeat(12,1fr);
+      grid-template-rows: repeat(12,1fr);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 2rem;
+      // &::before{
+      //    content: '';
+      //    position: absolute;
+      //    left: 0;
+      //    width: 31.7%;
+      //    height: 100%;
+      //    backdrop-filter: grayscale(70%);
+      // }
+      // .imgbox{
+      //    grid-column: 1/-1;
+      //    justify-self: center;
+      //    grid-row: 1/3;
+      //    width: 70%;
+      //    // grid-column: 3/ span 6;
+      //    // grid-row: 3/10 ;
+      //    img{
+      //       display: block;
+      //       border-top-right-radius: 40%;
+      //       border-top-left-radius: 40%;
+      //       width: 100%;
+      //       // aspect-ratio: 2/3;
+      //       height: auto;
+      //    }
+      // }
+      .content-box{
+         // grid-column: 1/ -1;
+         // grid-row: 7/-1 ;
+         text-align: center;
+         color: var(--background-color4);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 1rem;
+         .header-title{
+            font-family: "Archivo Black";
+            font-size: 3rem;
+            // line-height: 3rem;
+            margin:  0 auto 2rem auto;
+            max-width: 35rem;
+         }
+         .header-content-caption{
+            font-size: 1.6rem;
+            max-width: 34rem;
+            line-height: 1.2;
+            margin: 0 auto 1.5rem auto; 
+         }
+         .header-content-btn{
+            &:hover{
+               background-color: var(--hover-color);
+            }
+         }
+      }
+   }
+}
+
+// ------------------------
+
+@media (max-width: 380px) {
+   .header-title{
+      font-size: 4rem;
+   }
 }
