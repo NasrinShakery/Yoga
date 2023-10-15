@@ -1,0 +1,108 @@
+.yoga-classes-section {
+   text-align: center;
+   padding: 3rem 0;
+   margin-left: -1rem;
+      margin-right: -1rem;
+   .yoga-classes-title {
+      // font-family: ;
+      font-size: 2.5rem;
+      max-width: 36rem;
+      margin: 0 auto 1rem auto;
+   }
+   .classes-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      .yoga-class-card {
+         background-color: #fff;
+         border-radius: 2rem;
+         padding: 2rem;
+         margin:0 1rem 2rem 1rem;
+         flex-grow: 1;
+         overflow: hidden;
+         .class-banner {
+            position: relative;
+            border-radius: 2rem;
+            overflow: hidden;
+            height: 20rem;
+            .class-img {
+               width: 100%;
+               height: 100%;
+               // object-fit: cover;
+            }
+            .class-like {
+               background-color: var(--app-bg-color);
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               position: absolute;
+               top: 1.5rem;
+               right: 1.5rem;
+               width: 6rem;
+               height: 6rem;
+               border-radius: 1rem;
+               padding: 1rem;
+               cursor: pointer;
+               .class-like-icon {
+                  width: 100%;
+                  height: 100%;
+               }
+            }
+            .class-price {
+               background-color: #fff;
+               position: absolute;
+               bottom: -1rem;
+               left: 0;
+               right: 0;
+               width: 12rem;
+               margin: 0 auto;
+               padding: .5rem 2rem;
+               border-radius: 1rem;
+               .class-price-text {
+                  font-size: 1.6rem;
+                  color: var(--background-color1);
+                  text-align: center;
+               }
+            }
+         }
+         .class-title {
+            font-size: 3rem;
+            margin-top: 3rem;
+            margin-bottom: .5rem;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+         }
+         .class-caption {
+            margin-bottom: 3rem;
+         }
+         .class-link {
+            margin: 0 auto;
+            color: #8d8d8d;
+            background-color: rgba(141,141,141,0.1);
+         }
+      }
+   }
+   .classes-all-btn {
+      color: var(--background-color1);
+      border: 2px solid var(--background-color1);
+      background-color: transparent;
+      transition: all 200ms ease-in-out;
+      margin-top: 3rem;
+      margin: 0 auto;
+      &:hover {
+         color: #fff;
+         border: 2px solid var(--background-color1);
+         background-color: var(--background-color1);
+      }
+   }
+}
+
+
+//
+@media (max-width: 380px) {
+   .class-title{
+      font-size: 2.4rem;
+   }
+}
