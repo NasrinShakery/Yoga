@@ -65,6 +65,27 @@
          width: 60%;
       }
    }
+   // fore shape behind the background::after&
+   position: relative;
+   overflow: hidden;
+   &::before{
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 00;
+      background-image: url("./shape.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 60rem;
+      height: 60rem;
+      // width: 100%;
+   }
+   .newsLetter__content, .newsLetter__banner{
+      z-index: 2;
+   }
 }
 // 
 
@@ -106,6 +127,19 @@
          img{
             width: 70%;
          }
+      }
+
+   // fore shape behind the background::after&
+      &::before{
+         top: -11px;
+         bottom: -74px;
+         left: -114px;
+         right: 0;
+         width: auto;
+         height: auto;
+         background-size: auto;
+         background-position: right ;
+
       }
    }
 }
