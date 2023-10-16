@@ -20,7 +20,8 @@ const NewsLetter = () => {
          </div>
       </div>
       <div className="newsLetter__banner">
-            <img src="./images/yoga-meditation.png" alt="" />
+            {/* <img src="./images/yoga-meditation.png" alt="" /> */}
+            <img src="./images/yoga-person-4.png" alt="" />
          </div>
    </section>
   )

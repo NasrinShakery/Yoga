@@ -15,8 +15,8 @@ function Home() {
    return (
       <>
          <div id="home">
-            <div className="container">
                <Header />
+            <div className="container">
                <main id="home-main">
                   
                   <YogaServices/>
@@ -26,6 +26,7 @@ function Home() {
                </main>
                <NewsLetter/>
             </div>
+            <Footer/>
          </div>
       </>
    );

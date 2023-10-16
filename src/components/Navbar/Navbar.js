@@ -10,7 +10,9 @@ const Navbar = () => {
    }
   return (
     <nav className="nav">
-      <div className="logo-menu-Wrapper">
+      <div className="container">
+         <div className="navbar-wrapper">
+         <div className="logo-menu-Wrapper">
       <a href="#" className="app-logo">
          <img src="./images/yoga-logo.svg" alt="yoga" className='app-logo__img' />
       </a>
@@ -57,6 +59,8 @@ const Navbar = () => {
       </div>
       <div className={`nav__hamburger-btn ${hamburgerOpen ? " nav__hamburger-btn--open" : ""}`} onClick={hamburgerBtnHandler}>
          <span className="nav__hamburger-btn-line"></span>
+      </div>
+         </div>
       </div>
     </nav>
   )

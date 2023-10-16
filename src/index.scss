@@ -80,7 +80,28 @@ a, a:visited{
    --margin: 2rem;
    --box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.5);
    --line-height: 1.5;
+
+   --primary-font: "Roboto", Arial, Helvetica, sans-serif;
+   --primary-font-md: "Roboto Medium",Arial, Helvetica, sans-serif;
+   --secondary-font:"Archivo Black", Arial, Helvetica, sans-serif;
 }
+// --------------------------------
+html{
+   box-sizing: border-box;
+   font-size: 62.5%; // = 10px
+   scroll-behavior: smooth;
+}
+*,*:after, *:before{
+   box-sizing: inherit;
+}
+body{
+   line-height: 1.6;
+   font-size: 1.6rem;
+   font-family: "Roboto slab";
+}
+
+
+
 //------------- Healper class--------------------------------
 .btn{
    display: block;
@@ -94,19 +115,6 @@ a, a:visited{
    justify-content: center;
 }
 
-// --------------------------------
-html{
-   box-sizing: border-box;
-   font-size: 62.5%; // = 10px
-}
-*,*:after, *:before{
-   box-sizing: inherit;
-}
-body{
-   line-height: 1.6;
-   font-size: 1.6rem;
-   font-family: "Roboto slab";
-}
 
 // ---------
 .container{
