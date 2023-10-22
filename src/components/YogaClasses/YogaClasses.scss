@@ -24,6 +24,8 @@
          margin: 0 1rem 2rem 1rem;
          // flex-grow: 1;
          overflow: hidden;
+         flex: 0 0 25rem;
+         height: 40rem;
          .class-banner {
             position: relative;
             border-radius: 2rem;
@@ -45,13 +47,13 @@
                // top: 1.5rem;
                // right: 1.5rem;
                top: 1rem;
-               right: 7rem;
+               right: 11rem;
                width: 6rem;
                height: 6rem;
                border-radius: 1rem;
                border-top-right-radius: 10rem;
                border-top-left-radius: 10rem;
-               padding: .5rem .5rem 0 .5rem;
+               padding: 0.5rem 0.5rem 0 0.5rem;
                cursor: pointer;
                // .class-like-icon {
                //    width: 100%;
@@ -76,7 +78,7 @@
             }
          }
          .class-title {
-            font-size: 3rem;
+            font-size: 2rem;
             margin-top: 3rem;
             margin-bottom: 0.5rem;
             white-space: nowrap;
@@ -85,6 +87,9 @@
          }
          .class-caption {
             margin-bottom: 3rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
          }
          .class-link {
             margin: 0 auto;
