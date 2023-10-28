@@ -21,7 +21,6 @@ const Footer = () => {
                         BALANCE is not something you find, its something you
                         create.BALANCE is not something you find, its something you
                         create.BALANCE is not something you find, its something you
-                        create.BALANCE is not something you find, its something you
                         create.
                      </p>
                   </div>
