@@ -2,65 +2,49 @@
    "classes": [
       {
          "id": 1,
-         "name": "Coaching",
-         "description": "",
-         "img": "/images/yoga-coaching.jpg",
-         "isLiked": false,
-         "moredescription": ""
-      },
-      {
-         "id": 2,
          "name": "Hatha Yoga",
          "description": "Hatha is one of the most traditional styles of yoga",
-         "img": "/images/yoga-coaching.jpg",
+         "img": "/images/hatha-yoga.webp",
          "isLiked": false,
          "moredescription": "In Sanskrit, the word Hatha means sun (ha) and moon (ta), and this type of yoga is grounded in the idea of balancing the body. You’ll do one posture, and then another to counteract it immediately after"
       },
       {
-         "id": 3,
+         "id": 2,
          "name": "Ashtanga Yoga",
          "description": "Known as the eight-limbed path of yoga, Ashtanga is another traditional form of yoga",
-         "img": "/images/yoga-coaching.jpg",
+         "img": "/images/Ashtanga-Yoga.webp",
          "isLiked": false,
          "moredescription": "Oftentimes if you go to an Ashtanga class, because the sequence is exactly the same, everyone in the room is doing it at their own pace, and there will be a teacher walking around and giving adjustments,"
       },
       {
-         "id": 4,
+         "id": 3,
          "name": "Vinyasa Yoga",
          "description": "A mixture of elements from Ashtanga and Hatha yoga, Vinyasa yoga is focused on linking your breath with your movement",
-         "src": "/images/yoga-coaching.jpg",
+         "img": "/images/vinyasa-yoga.webp",
          "isLiked": false,
          "moredescription": "As in Ashtanga yoga, you’ll perform quick-moving sequences such as sun salutations at the beginning of your practice and do a flow of downward-facing dog, plank, chaturanga, and upward-facing dog in between poses, she says. That’s why you’ll often see Vinyasa classes simply called “flow,"
       },
       {
-         "id": 5,
+         "id": 4,
          "name": "Iyengar Yoga",
          "description": "Iyengar yoga is centered on the idea that you’ll reach a meditative state through the perfect alignment of your body",
-         "src": "/images/yoga-coaching.jpg",
+         "img": "/images/Iyengar-Yoga.webp",
          "isLiked": false,
          "moredescription": "Developed by B. K. S. Iyengar,In this style of yoga, you'll use props — including blocks, belts, bolsters, chairs, blankets, and even walls — to accommodate injuries, tightness, or structural imbalances in your body while learning how to move into a pose properly"
       },
       {
-         "id": 6,
-         "name": "Vinyasa Yoga",
-         "description": "",
-         "src": "test",
-         "isLiked": false,
-         "moredescription": ""
-      },
-      {
-         "id": 7,
+         "id": 5,
          "name": "Restorative Yoga",
          "description": "Restorative yoga is essentially a subset of Iyengar yoga that involves using props (think: blocks, straps, bolsters) to hold your body in a posture for five to 15 minutes",
-         "src": "/images/yoga-coaching.jpg",
+         "img": "/images/Restorative-Yoga.webp",
          "isLiked": false,
          "moredescription": "There isn’t as much of a quality of stretching as much as other forms,The goal instead is to put your body in these specific positions where it’s completely balanced and supported so you can really allow your nervous system to relax and to release the stress you’ve been holding onto."
       },
       {
-         "id": 8,
+         "id": 6,
          "name": "Yin Yoga",
          "description": "The premise of Yin yoga stems from the yin and yang symbol, a representation of lightness and darkness intermingling in traditional Chinese medicine",
-         "src": "/images/yoga-coaching.jpg",
+         "img": "/images/Yin-Yoga.webp",
          "isLiked": false,
          "moredescription": "The goal of Yin yoga is to deeply stretch the connective tissue and fascia throughout the body.The idea is that physical, sweaty, hot practices are that yang, fiery energy, and your body need balance,” she explains. “It also needs more lunar, feminine, restorative energy [the yin]”"
       }

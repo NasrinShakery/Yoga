@@ -21,7 +21,7 @@ const NewsLetter = () => {
       </div>
       <div className="newsLetter__banner">
             {/* <img src="./images/yoga-meditation.png" alt="" /> */}
-            <img src="./images/yoga-person-4.png" alt="" />
+            <img src="./images/yoga-person-4.webp" alt="" />
          </div>
    </section>
   )
